@@ -17,17 +17,7 @@
   transform-origin: 0px 0px 0px;
 }
 
-.button {
-  border-radius: 0px;
-  border-width: 5px;
-  border-style: ridge;
-  display: inline-block;
-  margin: 5px;
-  width: 150px;
-  height: 50px;
-  position: static;
-  line-height: 50px;
-  color: black;
-  background-color: rgba(0, 0, 0, 0.33);
+.hader_button {
+  padding: 5px;
 }
 
