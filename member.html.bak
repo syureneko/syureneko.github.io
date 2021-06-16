@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=Shift_JIS">
+    <title>member</title>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <div style="text-align: justify;"><code><img src="header.png" alt="header"
+
+          title="header" id="ll" class="header"><br>
+      </code></div>
+    <div style="text-align: center;">
+      <h1 class="title">シュレディンガーの猫</h1>
+      <div><a href="index.html"><img src="top_button_off.png" alt="top"></a><img
+
+          src="menu_button_on.png" alt="member"> </div>
+    </div>
+    <div style="text-align: justify;"><code></code></div>
+  </body>
+</html>
