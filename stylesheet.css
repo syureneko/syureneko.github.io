@@ -8,6 +8,23 @@
 }
 
 .title {
-  font-size: 30px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.sub_title {
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 10px 10px 0px 0px;
+  border-color: black;
+  border-width: 2px 2px 1px;
+  border-style: solid;
+}
+
+.name {
+  font-weight: bold;
+  border-width: 1px 2px 2px;
+  border-style: solid;
+  border-radius: 0px 0px 10px 10px;
 }
 
