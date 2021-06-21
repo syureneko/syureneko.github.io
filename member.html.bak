@@ -10,28 +10,26 @@
       <h1><code>シュレディンガーの猫<br>
         </code></h1>
     </div>
-    <div style="text-align: center;"><a href="index.html"><img src="image/button/top_button_off.png"
-
-          alt="top" class="hader_button"></a><img src="image/button/menu_button_on.png"
-
+    <div style="text-align: center;"><a href="index.html"><img src="image/button/top_button_off.png"
+          alt="top" class="hader_button"></a><img src="image/button/menu_button_on.png"
         alt="member" class="hader_button"></div>
     <div class="article">
       <h2 class="article-title">リーダー</h2>
       <p class="character_name">怜</p>
-      <img src="image/character/rei.png" class="character_image">
-        <h2 class="article-title" style="text-align: left;">マネージャー</h2>
-        <p class="character_name">四埜宮 謳</p>
-        <p><img src="image/character/utai.jpg" alt="" class="character_image"></p>
-        <h2 class="article-title" style="text-align: left;">コモンメンバー</h2>
-        <p class="character_name">PaNdA</p>
-        <p></p>
-      </div>
+      <div style="text-align: center;"><img src="image/character/rei.png" class="character_image"></div>
+      <h2 class="article-title" style="text-align: left;">マネージャー</h2>
+      <p class="character_name" style="text-align: center;">四埜宮 謳</p>
+      <p style="text-align: center;"><img src="image/character/utai.jpg" alt=""
+          class="character_image"></p>
+      <h2 class="article-title" style="text-align: left;">コモンメンバー</h2>
+      <p class="character_name" style="text-align: center;">PaNdA</p>
+      <p></p>
+    </div>
     <div id="Footer"> <a href="https://twitter.com/Kanzaki_Rei_">
         <p>Twitter</p>
       </a>
       <p> © 2021 KanzakiRei </p>
       <br>
     </div>
-    
   </body>
 </html>
