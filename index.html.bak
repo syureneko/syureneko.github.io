@@ -1,20 +1,43 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=Shift_JIS">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>index</title>
     <link type="text/css" rel="stylesheet" href="stylesheet.css">
   </head>
   <body>
-    <div style="text-align: justify;"><code><img src="header.png" alt="header" title="header"
-          id="ll" class="header"><br>
+    <div style="text-align: center;"><code><img src="image/header.png" alt="header_image"
+
+          id="header"><br>
       </code></div>
-    <div style="text-align: center;">
-      <h1 class="title">�V�����f�B���K�[�̔L</h1>
+    <div style="text-align: center;"><code class="title">シュレディンガーの猫<br>
+      </code></div>
+    <div style="text-align: center;"><img src="image/button/top_button_on.png" class="hader_button"
+
+        alt="top"><a href="member.html"><img src="image/button/menu_button_off.png"
+
+          alt="member" class="hader_button"><br>
+      </a></div>
+    <div style="text-align: center;"><br>
     </div>
-    <div style="text-align: center;"><img src="top_button_on.png" alt="top" class="grayout"><a
-        href="file:///D:/Users/Rei/Documents/GitHub/ngs/member.html"><img src="menu_button_off.png"
-          alt="member" class="grayout"></a></div>
-    <div style="text-align: justify;"><code></code></div>
+    <div style="text-align: center;">PSO2NGS「シュレディンガーの猫」のチームサイトです。</div>
+    <div style="text-align: center;">現在、サイト開発中です。</div>
+    <div style="text-align: center;"><br>
+    </div>
+    <div class="article">
+      <h2 class="article-title">更新履歴</h2>
+      <ul class="article-list">
+        <li> <span class="article-list-date">2021年06月21日</span>メンバーのSS更新<span class="label label_black">更
+            新</span></li>
+        <li><span class="article-list-date">2021年06月16日</span>サイトの開設<span class="label label_black">開
+            設</span></li>
+      </ul>
+    </div>
+    <div style="text-align: center;" id="Footer"> <a href="https://twitter.com/Kanzaki_Rei_">
+        <p>Twitter</p>
+      </a>
+      <p> © 2021 KanzakiRei </p>
+      <br>
+    </div>
   </body>
 </html>

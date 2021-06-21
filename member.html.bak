@@ -1,21 +1,59 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=Shift_JIS">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>member</title>
     <link type="text/css" rel="stylesheet" href="stylesheet.css">
   </head>
   <body>
-    <div style="text-align: justify;"><code><img src="header.png" alt="header"
+    <div style="text-align: center;"><code><img src="image/header.png" alt="header_image"
 
-          title="header" id="ll" class="header"><br>
+          id="header"><br>
       </code></div>
-    <div style="text-align: center;">
-      <h1 class="title">�V�����f�B���K�[�̔L</h1>
-      <div><a href="index.html"><img src="top_button_off.png" alt="top"></a><img
+    <div style="text-align: center;"><code class="title">シュレディンガーの猫<br>
+      </code></div>
+    <div style="text-align: center;"><a href="index.html"><img src="image/button/top_button_off.png"
 
-          src="menu_button_on.png" alt="member"> </div>
+          alt="top" class="hader_button"></a><img src="image/button/menu_button_on.png"
+
+        alt="member" class="hader_button"></div>
+      <div class="article">
+        <h2 class="article-title">更新履歴</h2>
+        <ul class="article-list">
+          <li> <span class="article-list-date">2021年06月21日</span>メンバーのSS更新<span
+
+              class="label label_black">更 新</span></li>
+          <li><span class="article-list-date">2021年06月16日</span>サイトの開設<span class="label label_black">開
+              設</span></li>
+        </ul>
+      </div>
+    <div style="text-align: center;" class="sub_title">リーダー</div>
+    <div style="text-align: center;" class="name">
+      <p style="text-align: center;">怜</p>
+      <p style="text-align: center;"> <img src="file:///D:/Users/Rei/Documents/GitHub/ngs/image/character/rei.png"
+
+          alt="" class="character_image"></p>
     </div>
-    <div style="text-align: justify;"><code></code></div>
+    <div style="text-align: center;"><br>
+    </div>
+    <div style="text-align: center;" class="sub_title">マネージャー</div>
+    <div style="text-align: center;" class="name">
+      <p>四埜宮 謳</p>
+      <img src="image/character/utai.jpg" alt="" class="character_image"> </div>
+    <div style="text-align: center;"><br>
+    </div>
+    <div style="text-align: center;" class="sub_title">コモンメンバー</div>
+    <div style="text-align: center;" class="name">
+      <p>PaNdA</p>
+    </div>
+    <div style="text-align: center;"><br>
+    </div>
+    <div style="text-align: center;" id="Footer"> <a href="https://twitter.com/Kanzaki_Rei_">
+        <p>Twitter</p>
+      </a>
+      <p> © 2021 KanzakiRei </p>
+      <br>
+    </div>
+    
   </body>
 </html>
