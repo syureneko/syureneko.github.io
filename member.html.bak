@@ -10,10 +10,8 @@
       <h1><code>シュレディンガーの猫<br>
         </code></h1>
     </div>
-    <div style="text-align: center;"><a href="index.html"><img src="image/button/top_button_off.png"
-
-          alt="top" class="hader_button"></a><img src="image/button/menu_button_on.png"
-
+    <div style="text-align: center;"><a href="index.html"><img src="image/button/top_button_off.png"
+          alt="top" class="hader_button"></a><img src="image/button/menu_button_on.png"
         alt="member" class="hader_button"></div>
     <div class="article">
       <h2 class="article-title" style="text-align: left;">リーダー</h2>
@@ -21,15 +19,16 @@
       <div style="text-align: center;"><img src="image/character/rei.png" class="character_image"></div>
       <h2 class="article-title" style="text-align: left;">マネージャー</h2>
       <p class="character_name" style="text-align: center;">四埜宮 謳</p>
-      <p style="text-align: center;"><img src="image/character/utai.jpg" alt=""
-
-          class="character_image"></p>
+      <p style="text-align: center;"><img src="image/character/utai.jpg" class="character_image"></p>
       <h2 class="article-title" style="text-align: left;">コモンメンバー</h2>
       <p class="character_name" style="text-align: center;">PaNdA</p>
+      <div style="text-align: center;"><img src="image/character/panda.png" class="character_image"></div>
       <p></p>
     </div>
     <div id="Footer"> <a href="https://twitter.com/Kanzaki_Rei_">
         <p>Twitter</p>
+      </a> <a href="mailto:syureneko.ngs@gmail.com?subject=%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B&amp;body=%E3%81%93%E3%81%A1%E3%82%89%E3%81%AB%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%E5%86%85%E5%AE%B9%E3%82%92%E3%81%94%E8%A8%98%E8%BC%89%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82%0d%0a">
+        <p>お問い合わせ</p>
       </a>
       <p> © 2021 KanzakiRei </p>
       <br>
