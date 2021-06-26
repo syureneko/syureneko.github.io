@@ -7,7 +7,8 @@
     <link type="text/css" rel="stylesheet" href="stylesheet.css">
   </head>
   <body>
-    <h1 style="text-align: center;" id="title" class="outline">シュレディ ンガーの猫</h1>
+    <h1 style="text-align: center;" id="title" class="outline"><br>
+    </h1>
     <div style="text-align: center;"><img src="image/header.png" alt="header_image"
         id="header"> </div>
     <div style="text-align: center;"> <img src="image/button/top_button_on.png"
@@ -23,8 +24,6 @@
       <ul class="article-list">
         <li> <span class="article-list-date">2021年06月26日</span>レイアウトとSSの更新<span
             class="label label_black">更 新</span><span class="article-list-date"></span></li>
-        <li> <span class="article-list-date">2021年06月25日</span>ヘッダ画像を更新<span class="label label_black">更
-            新</span><span class="article-list-date"></span></li>
         <li><span class="article-list-date">2021年06月21日</span>メンバのSSを更新<span class="label label_black">更
             新</span></li>
         <li><span class="article-list-date">2021年06月16日</span>サイトの開設<span class="label label_black">開
