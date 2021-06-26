@@ -7,13 +7,9 @@
     <link type="text/css" rel="stylesheet" href="stylesheet.css">
   </head>
   <body>
-    <div style="text-align: center;"><code><img src="image/header.png" alt="header_image"
-          id="header"><br>
-      </code></div>
-    <div style="text-align: center;">
-      <h1><code>シュレディンガーの猫<br>
-        </code></h1>
-    </div>
+    <h1 style="text-align: center;" id="title" class="outline">シュレディンガーの猫</h1>
+    <div style="text-align: center;"><img src="image/header.png" alt="header_image"
+        id="header"> </div>
     <div style="text-align: center;"><img src="image/button/top_button_on.png" class="hader_button"
         alt="top"><a href="member.html"><img src="image/button/menu_button_off.png"
           alt="member" class="hader_button"><br>
@@ -26,18 +22,20 @@
     <div class="article">
       <h2 class="article-title">更新履歴</h2>
       <ul class="article-list">
-        <li> <span class="article-list-date">2021年06月21日</span>メンバー のSSを更新<span
-            class="label label_black">更新</span></li>
+        <li> <span class="article-list-date">2021年06月25日</span>ヘッダ画像を更新<span class="label label_black">更
+            新</span><span class="article-list-date"></span></li>
+        <li><span class="article-list-date">2021年06月21日</span>メンバのSSを更新<span class="label label_black">更
+            新</span></li>
         <li><span class="article-list-date">2021年06月16日</span>サイトの開設<span class="label label_black">開
             設</span></li>
       </ul>
     </div>
-    <div style="text-align: center;" id="Footer"> <a href="https://twitter.com/Kanzaki_Rei_">
+    <div style="text-align: center;" id="footer"> <a href="https://twitter.com/Kanzaki_Rei_">
         <p>Twitter</p>
       </a> <a href="mailto:syureneko.ngs@gmail.com?subject=%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B&amp;body=%E3%81%93%E3%81%A1%E3%82%89%E3%81%AB%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%E5%86%85%E5%AE%B9%E3%82%92%E3%81%94%E8%A8%98%E8%BC%89%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82">
         <p>お問い合わせ</p>
-      </a>
-      <p> © 2021 KanzakiRei </p>
+      </a> <br>
+      © 2021 KanzakiRei <br>
       <br>
     </div>
   </body>
