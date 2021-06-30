@@ -42,9 +42,6 @@
 }
 
 #nav li {
-  padding: 4px 0px;
-  position: relative;
-  top: -4px;
   text-align: center;
   display: inline-block;
   font-size: 16px;
@@ -57,7 +54,6 @@
   background-color: #666666;
   font-weight: bold;
   margin-bottom: 0px;
-  position: relative;
   border-left: 1px solid #333333;
   border-right: 1px solid #333333;
 }
@@ -69,7 +65,6 @@
   background-color: #333333;
   font-weight: bold;
   margin-bottom: 0px;
-  position: relative;
   border-left: 1px solid #333333;
   border-right: 1px solid #333333;
 }
