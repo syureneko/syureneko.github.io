@@ -9,6 +9,7 @@
   object-fit: none;
   object-position: 50% 55%;
   border-radius: 0px;
+  vertical-align: top;
 }
 
 #title, #title::after {
