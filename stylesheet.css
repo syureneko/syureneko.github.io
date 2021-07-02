@@ -1,7 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
-	-webkit-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 200%;
 }
 
 #header {
@@ -43,14 +43,14 @@
 }
 
 #nav li {
+  padding: 8px 0px;
   display: inline-block;
 }
 
 #nav li a, #nav li span {
   text-decoration: none;
-  padding-left: 140px;
-  padding-right: 140px;
-  font-size: 20px;
+  padding: 8px 140px;
+  font-size: 15px;
   font-weight: bold;
   color: white;
   border-left: 1px solid #333333;
