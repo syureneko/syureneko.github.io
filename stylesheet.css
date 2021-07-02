@@ -43,14 +43,14 @@
 }
 
 #nav li {
-  padding: 0px 0px;
   display: inline-block;
 }
 
 #nav li a, #nav li span {
   text-decoration: none;
-  padding: 8px 140px;
-  font-size: 15px;
+  padding-left: 140px;
+  padding-right: 140px;
+  font-size: 16px;
   font-weight: bold;
   color: white;
   border-left: 1px solid #333333;
