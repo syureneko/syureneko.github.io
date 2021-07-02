@@ -48,8 +48,7 @@
 
 #nav li a, #nav li span {
   text-decoration: none;
-  padding-left: 140px;
-  padding-right: 140px;
+  padding: 0px 140px;
   font-size: 16px;
   font-weight: bold;
   color: white;
