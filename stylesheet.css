@@ -1,7 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
-	-webkit-text-size-adjust: 200%;
+	-webkit-text-size-adjust: 150%;
 }
 
 #header {
@@ -39,7 +39,7 @@
 #nav {
   text-align: center;
   list-style: none;
-  font-size: 0;
+  font-size: 0px;
 }
 
 #nav li {
