@@ -42,14 +42,14 @@
 }
 
 #nav li {
+  padding: 8px 0px;
   text-align: center;
   display: inline-block;
   font-size: 16px;
 }
 
 #nav li a {
-  padding: 0px 140px;
-  display: inline;
+  padding: 8px 140px;
   text-decoration: none;
   color: white;
   background-color: #666666;
@@ -60,8 +60,7 @@
 }
 
 #nav li span {
-  padding: 0px 140px;
-  display: inline;
+  padding: 8px 140px;
   text-decoration: none;
   color: white;
   background-color: #333333;
