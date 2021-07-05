@@ -50,7 +50,7 @@
 #nav li a, #nav li span {
   display: inline-block;
   text-decoration: none;
-  padding: 0px 140px;
+  padding: 0px 90px;
   font-size: 16px;
   letter-spacing: normal;
   font-weight: bold;
@@ -75,6 +75,13 @@
   display: inline;
   color: black;
 text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.56), -2px 2px 5px rgba(255, 255, 255, 0.56), 2px -2px 5px rgba(255, 255, 255, 0.56), -2px -2px 5px rgba(255, 255, 255, 0.56), 2px 0px 5px rgba(255, 255, 255, 0.56), 0px 2px 5px rgba(255, 255, 255, 0.56), -2px 0px 5px rgba(255, 255, 255, 0.56), 0px -2px 5px rgba(255, 255, 255, 0.56);
+}
+
+.content {
+  text-align: center;
+  border-bottom-width: 0px;
+  border-bottom-style: none;
+  border-top-style: none;
 }
 
 .hader_button {
@@ -106,13 +113,6 @@ text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.56), -2px 2px 5px rgba(255, 255, 
   border-style: solid;
   border-width: 0px;
   object-fit: cover;
-}
-
-.content {
-  text-align: center;
-  border-bottom-width: 0px;
-  border-bottom-style: none;
-  border-top-style: none;
 }
 
 .label {
