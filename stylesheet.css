@@ -1,7 +1,6 @@
 * {
   margin: 0px;
   padding: 0px;
-	-webkit-text-size-adjust: 150%;
 }
 
 #header {
@@ -38,7 +37,7 @@
 
 #nav {
   text-align: center;
-  list-style: none;
+  list-style: outside none none;
   font-size: 0px;
   letter-spacing: -0.01px;
 }
@@ -94,7 +93,7 @@ text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.56), -2px 2px 5px rgba(255, 255, 
 
 .character_panel {
   text-align: center;
-  padding: 0px 10px;
+  padding: 5px 10px;
   display: inline-block;
   border-bottom-width: 0px;
   border-bottom-style: none;
@@ -188,3 +187,4 @@ text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.56), -2px 2px 5px rgba(255, 255, 
   color: #666666;
   padding-left: 24px;
 }
+
