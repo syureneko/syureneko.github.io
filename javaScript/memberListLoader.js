@@ -14,14 +14,14 @@ function onLoadedJsonDataBase(_jsonText) {
 	div.classList.add("article");
 	target.appendChild(div);	
 	let views = titles.map(title => createView(div, title));
-	jsonData.forEach(data => {
+	_jsonText.forEach(data => {
 		let index = titles.indexOf(data.type);
 		if (index >= 0) {
 			createPanel(views[index], data.name, data.path);
 		}
 	});
 	views.forEach(view => {
-		if (view.children.length < 0) {
+		if (view.children.length <= 0) {
 			createPanel(view, "この役職のメンバはいません。", "");
 		}
 	});
