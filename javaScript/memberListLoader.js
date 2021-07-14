@@ -35,7 +35,7 @@ function createView(_parent, _title) {
 	let div = document.createElement("div");
 	div.classList.add("content");
 	_parent.appendChild(div);
-	return content;
+	return div;
 }
 
 function createPanel(_parent, _name, _path) {
