@@ -8,7 +8,7 @@
 }
 
 function onLoadedJsonDataBase(_jsonText) {
-	let target = document.getElementById("menberList");
+	let target = document.getElementById("memberList");
 	let titles = ["リーダー","マネージャー","コモンメンバー","ビジター"];
 	let div = document.createElement("div");
 	div.classList.add("article");
