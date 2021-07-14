@@ -63,3 +63,5 @@ function createComment(_count) {
 	p.textContent = "現在チームメンバは" + _count + "人です。";
 	target.appendChild(p);
 }
+
+loadJson();
