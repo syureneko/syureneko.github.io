@@ -3,13 +3,15 @@
 	req.open("get", "json/memberList.json", true);
 	req.send();
 	req.onload = function () {
-		onLoadedJsonDataBase(JSON.parse(req.responseText));
+		let jsonText = JSON.parse(req.responseText);
+		createMemberList(jsonText);
+		createComment(jsonText.length);
 	}
 }
 
-function onLoadedJsonDataBase(_jsonText) {
+function createMemberList(_jsonText) {
 	let target = document.getElementById("memberList");
-	let titles = ["リーダー","マネージャー","コモンメンバー","ビジター"];
+	const titles = ["リーダー","マネージャー","コモンメンバー","ビジター"];
 	let div = document.createElement("div");
 	div.classList.add("article");
 	target.appendChild(div);	
@@ -52,4 +54,12 @@ function createPanel(_parent, _name, _path) {
 		img.src = "image/character/" + _path;
 		div.appendChild(img);
 	}
+	this._memberCount++;
+}
+
+function createComment(_count) {
+	let target = document.getElementById("comment");
+	let p = document.createElement("p");
+	p.textContent = "現在チームメンバは" + _count + "人です。";
+	target.appendChild(p);
 }
