@@ -2,7 +2,7 @@
   {
     "type": "リーダー",
     "Name": "怜",
-    "resourceName": rei.png,
+    "resourceName": "rei.png",
   },
   {
     "type": "マネージャー",
@@ -12,7 +12,7 @@
   {
     "type": "マネージャー",
     "Name": "PaNdA",
-    "resourceName":" panda.jpg",
+    "resourceName": "panda.jpg",
   },
   {
     "type": "コモンメンバー",
@@ -22,11 +22,11 @@
   {
     "type": "コモンメンバー",
     "Name": "くま吉",
-    "resourceName":" kumakiti.png",
+    "resourceName": "kumakiti.png",
   },
   {
     "type": "コモンメンバー",
     "Name": "fuuka",
-    "resourceName":" fuuka.png",
+    "resourceName": "fuuka.png",
   }
 ]
