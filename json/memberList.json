@@ -1,32 +1,32 @@
-﻿[
+[
   {
     "type": "リーダー",
-    "Name": "怜",
-    "resourceName": "rei.png",
+    "name": "怜",
+    "path": "rei.png"
   },
   {
     "type": "マネージャー",
-    "Name": "四埜宮 謳",
-    "resourceName": "utai.png",
+    "name": "四埜宮 謳",
+    "path": "utai.png"
   },
   {
     "type": "マネージャー",
-    "Name": "PaNdA",
-    "resourceName": "panda.jpg",
+    "name": "PaNdA",
+    "path": "panda.jpg"
   },
   {
     "type": "コモンメンバー",
-    "Name": "Forty",
-    "resourceName": "forty.png",
+    "name": "Forty",
+    "path": "forty.png"
   },
   {
     "type": "コモンメンバー",
-    "Name": "くま吉",
-    "resourceName": "kumakiti.png",
+    "name": "くま吉",
+    "path": "kumakiti.png"
   },
   {
     "type": "コモンメンバー",
-    "Name": "fuuka",
-    "resourceName": "fuuka.png",
+    "name": "fuuka",
+    "path": "fuuka.png"
   }
 ]
