@@ -28,5 +28,10 @@
     "type": "コモンメンバー",
     "name": "fuuka",
     "path": "fuuka.png"
+  },
+  {
+    "type": "ビジター",
+    "name": "メア",
+    "path": "mea.png"
   }
 ]
