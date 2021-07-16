@@ -25,12 +25,42 @@ html {
   content: "シュレディンガーの猫";
 }
 
-#footer {
-  border-top: 1px solid #333333;
-  font-size: 10px;
-  color: #666666;
-  background-color: white;
+#title, .outline {
+  display: inline;
+  color: black;
+  text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.56), -2px 2px 5px rgba(255, 255, 255, 0.56), 2px -2px 5px rgba(255, 255, 255, 0.56), -2px -2px 5px rgba(255, 255, 255, 0.56), 2px 0px 5px rgba(255, 255, 255, 0.56), 0px 2px 5px rgba(255, 255, 255, 0.56), -2px 0px 5px rgba(255, 255, 255, 0.56), 0px -2px 5px rgba(255, 255, 255, 0.56);
+}
+
+#nav {
   text-align: center;
+  font-size: 0px;
+}
+
+#nav li {
+  display: inline-block;
+  letter-spacing: -0.001px;
+  width: calc(100% / 3);
+}
+
+#nav li a, #nav li span {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 2px 0px;
+  font-weight: bold;
+  letter-spacing: normal;
+  color: white;
+  border-left: 1px solid #333333;
+  border-right: 1px solid #333333;
+  width: calc(100% - 2px);
+}
+
+#nav li a {
+  background-color: #666666;
+}
+
+#nav li span, #nav li a:hover {
+  background-color: #333333;
 }
 
 .sub_title {
@@ -39,156 +69,14 @@ html {
   border-bottom: 2px solid #333333;
 }
 
-#nav {
+#footer {
+  border-top: 1px solid #333333;
+  font-size: 10px;
+  color: #666666;
+  background-color: white;
   text-align: center;
-  list-style: outside none none;
-  font-size: 0px;
-  letter-spacing: -0.01px;
-}
-
-#nav li {
-  display: inline-block;
-}
-
-#nav li a, #nav li span {
-  display: inline-block;
-  text-decoration: none;
-  padding: 0px 90px;
-  font-size: 16px;
-  letter-spacing: normal;
-  font-weight: bold;
-  color: white;
-  border-left: 1px solid #333333;
-  border-right: 1px solid #333333;
-}
-
-#nav li a {
-  background-color: #666666;
-}
-
-#nav li a:hover {
-  background-color: #333333;
-}
-
-#nav li span {
-  background-color: #333333;
-}
-
-.outline, #title {
-  display: inline;
-  color: black;
-text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.56), -2px 2px 5px rgba(255, 255, 255, 0.56), 2px -2px 5px rgba(255, 255, 255, 0.56), -2px -2px 5px rgba(255, 255, 255, 0.56), 2px 0px 5px rgba(255, 255, 255, 0.56), 0px 2px 5px rgba(255, 255, 255, 0.56), -2px 0px 5px rgba(255, 255, 255, 0.56), 0px -2px 5px rgba(255, 255, 255, 0.56);
 }
 
 .content {
   text-align: center;
-  border-bottom-width: 0px;
-  border-bottom-style: none;
-  border-top-style: none;
 }
-
-.hader_button {
-  padding: 5px;
-}
-
-.button_menu {
-  text-align: center;
-}
-
-.character_panel {
-  text-align: center;
-  padding: 5px 10px;
-  display: inline-block;
-  border-bottom-width: 0px;
-  border-bottom-style: none;
-  border-top-style: none;
-}
-
-.character_name {
-  text-align: center;
-}
-
-.character_image {
-  text-align: center;
-  width: 400px;
-  height: 400px;
-  border-radius: 15px;
-  border-style: solid;
-  border-width: 0px;
-  object-fit: cover;
-}
-
-.label {
-  margin: 0px 12px;
-  padding: 3px 6px;
-  border: 1px solid #333333;
-  background: #656d78 none repeat scroll 0% 0%;
-  color: white;
-  text-align: center;
-  white-space: nowrap;
-  font-size: 0.6em;
-  line-height: 1;
-  border-radius: 3px;
-  box-sizing: border-box;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.label_black {
-  border: 1px solid #656d78;
-  background: black none repeat scroll 0% 0%;
-}
-
-.label_red {
-  border: 1px solid #5d9cec;
-  background: red none repeat scroll 0% 0%;
-}
-
-.label_green {
-  border: 1px solid #a0d468;
-  background: lime none repeat scroll 0% 0%;
-}
-
-.label_blue {
-  border: 1px solid #ffce54;
-  background: blue none repeat scroll 0% 0%;
-}
-
-.article {
-  margin: 0px auto 48px;
-  box-sizing: border-box;
-}
-
-.article-title {
-  padding-bottom: 6px;
-  border-bottom: 1px solid #333333;
-  clear: both;
-  margin-right: 24px;
-  margin-left: 24px;
-  padding-top: 0px;
-  margin-top: 0px;
-}
-
-.article-list {
-  margin: 0px;
-  padding: 0px;
-  list-style-type: none;
-}
-
-.article-list > li {
-  padding: 12px 0px;
-  border-bottom: 1px dotted #333333;
-  margin-right: 24px;
-  margin-left: 24px;
-}
-
-.article-list > li:last-child {
-  border-bottom: medium none;
-}
-
-.article-list-date {
-  padding-right: 12px;
-  color: #666666;
-  padding-left: 24px;
-}
-

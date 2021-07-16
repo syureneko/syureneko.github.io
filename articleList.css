@@ -1,0 +1,36 @@
+.article {
+  margin: 0px auto 0px;
+  box-sizing: border-box;
+}
+
+.article-title {
+  padding-bottom: 6px;
+  border-bottom: 1px solid #333333;
+  clear: both;
+  margin-right: 12px;
+  margin-left: 12px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.article-list {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.article-list > li {
+  border-bottom: 1px dotted #333333;
+  padding: 8px 0px;
+  margin-left: 12px;
+}
+
+.article-list > li:last-child {
+  border-bottom: medium none;
+}
+
+.article-list-date {
+  padding: 0px 8px;
+  color: #666666;
+}
+

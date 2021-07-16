@@ -1,13 +1,7 @@
-html {
-  height: 100%; 
-  margin: 0px;
-}
-
-body, .content {
-  height: 90%; 
-  margin: 0px;
+html, body, .content {
+  height: calc(100% - 35px);
 }
 
 iframe.twitter-timeline {
-    width : 50% !important;
+    width: 1000px !important;
 }
