@@ -20,6 +20,7 @@ function createMemberList(_jsonText) {
 		let index = titles.indexOf(data.type);
 		if (index >= 0) {
 			createPanel(views[index], data.name, data.path);
+			this._memberCount++;
 		}
 	});
 	views.forEach(view => {
@@ -41,20 +42,20 @@ function createView(_parent, _title) {
 }
 
 function createPanel(_parent, _name, _path) {
-	let div = document.createElement("div");
-	div.classList.add("character_panel");
-	_parent.appendChild(div);
+	let panel = document.createElement("div");
+	panel.classList.add("character_panel");
+	_parent.appendChild(panel);
 	let h3 = document.createElement("h3");
-	h3.classList.add("character_name");
 	h3.textContent = _name;
-	div.appendChild(h3);
+	panel.appendChild(h3);
 	if (_path) {
+		let imgDiv = document.createElement("div");
+		imgDiv.classList.add("character_image");
+		panel.appendChild(imgDiv);
 		let img = document.createElement("img");
-		img.classList.add("character_image");
 		img.src = "image/character/" + _path;
-		div.appendChild(img);
+		imgDiv.appendChild(img);
 	}
-	this._memberCount++;
 }
 
 function createComment(_count) {
