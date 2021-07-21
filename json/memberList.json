@@ -10,7 +10,7 @@
     "path": "utai.jpg"
   },
   {
-    "type": "マネージャー",
+    "type": "コモンメンバー",
     "name": "PaNdA",
     "path": "panda.png"
   },
@@ -30,8 +30,8 @@
     "path": "fuuka.png"
   },
   {
-    "type": "ビジター",
-    "name": "メア",
-    "path": "mea.png"
+    "type": "コモンメンバー",
+    "name": "そらえ",
+    "path": "sorae.png"
   }
 ]
