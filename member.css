@@ -1,8 +1,19 @@
 .character_panel {
   display: inline-block;
   padding: 1%;
-  width: calc(50% - 5%);
   height: 100%;
+}
+
+@media screen and (max-width: 699px) {
+  .character_panel {
+    width: calc(50% - 5%);
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .character_panel {
+    width: calc(350px - 5%);
+  }
 }
 
 .character_image {
