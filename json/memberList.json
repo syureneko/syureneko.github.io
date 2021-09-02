@@ -23,5 +23,10 @@
     "type": "コモンメンバー",
     "name": "そらえ",
     "path": "sorae.png"
+  },
+  {
+    "type": "ビジター",
+    "name": "ソフィーナ",
+    "path": "sofi-na.png"
   }
 ]
