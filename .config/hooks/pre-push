@@ -1,17 +1,11 @@
 #!/bin/sh
 ROOT=`pwd`
 UPDATE_HISTORY_LOG="$ROOT/logs/updateHistoryLog.txt"
-if grep "ログの更新" $UPDATE_HISTORY_LOG; 
-then
- git log origin/main..main --pretty=format:"%s %ad" --date=format-local:"%m/%d" | {
-  MSG=$(cat); 
-  echo "$MSG" > temp_file
-  cat $UPDATE_HISTORY_LOG >> temp_file
-  mv temp_file $UPDATE_HISTORY_LOG
-  git add $UPDATE_HISTORY_LOG
-  git commit -m "ログの更新"
-  git push origin main
- }
- echo "then"
-fi
- echo "fi"
+git log origin/main..main --pretty=format:"%s %ad" --date=format-local:"%m/%d" | {
+ MSG=$(cat); 
+ echo "$MSG" > temp_file
+ cat $UPDATE_HISTORY_LOG >> temp_file
+ mv temp_file $UPDATE_HISTORY_LOG
+ git add $UPDATE_HISTORY_LOG
+ git commit -m "ログの更新"
+}
