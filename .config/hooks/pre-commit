@@ -2,7 +2,7 @@
 ROOT=`pwd`
 UPDATE_HISTORY_LOG="$ROOT/logs/updateHistoryLog.txt"
 MSG=`cat $1`
-if [ `echo 'MSG' | grep 'updateLog'` ] ; then
+if [ `echo "&MSG" | grep "updateLog"` ] ; then
  exit 0
 fi
  echo "$MSG" > temp_file
