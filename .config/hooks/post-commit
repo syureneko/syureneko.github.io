@@ -1,0 +1,18 @@
+#!/bin/sh
+ROOT=`pwd`
+MSG_BASE="updateHistory";
+UPDATE_HISTORY_LOG="$ROOT/logs/$MSG_BASE.txt"
+git log --pretty=format:"%s" -1 HEAD | { 
+ MSG=$(cat)
+ DATE=`date +'%m/%d'`
+ if [ $MSG == $MSG_BASE ] ; then
+  exit 0
+ else
+  echo "$MSG $DATE" > temp_file
+  cat $UPDATE_HISTORY_LOG >> temp_file
+  mv temp_file $UPDATE_HISTORY_LOG
+  git add $UPDATE_HISTORY_LOG
+  git commit -m "$MSG_BASE"
+  echo ""
+ fi
+}
