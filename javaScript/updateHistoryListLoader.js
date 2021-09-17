@@ -9,13 +9,16 @@
 }
 
 function createMemberList(_jsonText) {
+	const MAX_UPDATE_HISTORY = 10;
 	let target = document.getElementById("updateHistoryList");
 	let div = document.createElement("div");
 	div.classList.add("article");
 	target.appendChild(div);
 	let view = createView(div, "更新履歴");
-	_jsonText.forEach(data => {
-		createPanel(view, data.msg, data.date);
+	_jsonText.forEach((data, index) => {
+		if(index <= MAX_UPDATE_HISTORY){
+			createPanel(view, data.msg, data.date);
+		}
 	});
 }
 
@@ -36,8 +39,13 @@ function createPanel(_parent, _msg, _date) {
 
 	let label = document.createElement("span");
 	label.classList.add("label");
-	label.classList.add("label_black");
-	label.innerHTML = "更新";
+	if(_msg.indexOf("追加") >= 0) {
+		label.classList.add("label_red");
+		label.innerHTML = "追加";
+	} else {
+		label.classList.add("label_black");
+		label.innerHTML = "更新";
+	}
 	li.appendChild(label);
 	
 	let msgLabel = document.createElement("span");
