@@ -36,12 +36,12 @@ function createPanel(_parent, _msg, _date) {
 	_parent.appendChild(li);
 
 	let label = document.createElement("span");
-	label.classList.add("label label_black");
+	label.classList.add("labe");
+	label.classList.add("label_black");
 	label.innerHTML = "更新";
 	li.appendChild(label);
 	
 	let msgLabel = document.createElement("span");
-	msgLabel.classList.add("label label_black");
 	msgLabel.innerHTML = _msg;
 	li.appendChild(msgLabel);
 	
