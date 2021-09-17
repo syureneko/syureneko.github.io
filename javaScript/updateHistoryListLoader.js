@@ -5,7 +5,6 @@
 	req.onload = function () {
 		let jsonText = JSON.parse(req.responseText);
 		createMemberList(jsonText);
-		createComment(jsonText.length);
 	}
 }
 
