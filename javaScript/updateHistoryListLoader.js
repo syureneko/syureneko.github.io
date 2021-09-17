@@ -36,7 +36,7 @@ function createPanel(_parent, _msg, _date) {
 	_parent.appendChild(li);
 
 	let label = document.createElement("span");
-	label.classList.add("labe");
+	label.classList.add("label");
 	label.classList.add("label_black");
 	label.innerHTML = "更新";
 	li.appendChild(label);
