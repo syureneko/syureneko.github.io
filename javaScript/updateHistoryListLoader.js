@@ -17,11 +17,11 @@ function createMemberList(_jsonText) {
 	target.appendChild(div);
 	let view = createView(div, "更新履歴");
 	_jsonText.forEach((data, index) => {
-		if(index <= MAX_UPDATE_HISTORY_VIEW){
-			createPanel(view, data.msg, data.date);
-		}
 		if(index == MAX_UPDATE_HISTORY_DRAW){
 			view = createDetails(view, "");
+		}
+		if(index < MAX_UPDATE_HISTORY_VIEW){
+			createPanel(view, data.msg, data.date);
 		}
 	});
 }
