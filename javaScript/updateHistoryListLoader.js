@@ -9,15 +9,19 @@
 }
 
 function createMemberList(_jsonText) {
-	const MAX_UPDATE_HISTORY = 10;
+	const MAX_UPDATE_HISTORY_DRAW = 5;
+	const MAX_UPDATE_HISTORY_VIEW = 10;
 	let target = document.getElementById("updateHistoryList");
 	let div = document.createElement("div");
 	div.classList.add("article");
 	target.appendChild(div);
 	let view = createView(div, "更新履歴");
 	_jsonText.forEach((data, index) => {
-		if(index <= MAX_UPDATE_HISTORY){
+		if(index <= MAX_UPDATE_HISTORY_VIEW){
 			createPanel(view, data.msg, data.date);
+		}
+		if(index == MAX_UPDATE_HISTORY_DRAW){
+			view = createDetails(view, "");
 		}
 	});
 }
@@ -31,6 +35,15 @@ function createView(_parent, _title) {
 	div.classList.add("article-list");
 	_parent.appendChild(div);
 	return div;
+}
+
+function createDetails(_parent, _title) {
+	let details = document.createElement("details");
+	_parent.appendChild(details);
+	let summary = document.createElement("summary");
+	summary.innerHTML = _title;
+	details.appendChild(summary);
+	return details;
 }
 
 function createPanel(_parent, _msg, _date) {

@@ -19,18 +19,37 @@
   list-style-type: none;
 }
 
-.article-list > li {
+.article-list li {
   border-bottom: 1px dotted #333333;
   padding: 8px 0px;
-  margin-left: 12px;
+  margin: 0px 12px;
 }
 
-.article-list > li:last-child {
+.article-list li:last-child {
   border-bottom: medium none;
 }
 
 .article-list-date {
   padding: 0px 8px;
   color: #666666;
+}
+
+details[open] summary {
+  border-bottom: 1px dotted #333333;
+  margin: 0px 12px;
+}
+
+details summary::before {
+  content: "▼";
+}
+
+details[open] summary::before {
+  content: "▲";
+}
+
+summary {
+  display: block;
+  list-style: none;
+  text-align: center;
 }
 
