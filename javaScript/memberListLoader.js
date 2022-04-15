@@ -1,20 +1,23 @@
 ﻿function loadJson() {
 	let req = new XMLHttpRequest();
-	req.open("get", "json/memberList.json", true);
+	req.open("get", "https://script.google.com/macros/s/AKfycbz7s127_pgdRaPkVS8n8BMwWHMEHYvj6qNXh3Cf9K3dL5jgiuyWa3trYOkc3nL_gx-w/exec?type=syureneko", true);
 	req.send();
-	req.onload = function () {
-		let jsonText = JSON.parse(req.responseText);
-		createMemberList(jsonText);
-		createComment(jsonText.length);
+	req.onreadystatechange = function () {
+		// サーバーからのレスポンスが完了し、かつ、通信が正常に終了した場合
+		if (req.readyState == 4 && req.status == 200) {
+			let json = JSON.parse(req.responseText);
+			createMemberList(json);
+			createComment(json.length);
+		}
 	}
 }
 
 function createMemberList(_jsonText) {
 	let target = document.getElementById("memberList");
-	const titles = ["リーダー","マネージャー","コモンメンバー","ビジター"];
+	const titles = ["リーダー", "マネージャー", "コモンメンバー", "ビジター"];
 	let div = document.createElement("div");
 	div.classList.add("article");
-	target.appendChild(div);	
+	target.appendChild(div);
 	let views = titles.map(title => createView(div, title));
 	_jsonText.forEach(data => {
 		let index = titles.indexOf(data.type);
