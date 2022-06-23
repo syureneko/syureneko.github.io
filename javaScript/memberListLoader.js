@@ -1,6 +1,6 @@
 ﻿function loadJson() {
 	let req = new XMLHttpRequest();
-	req.open("get", "https://script.google.com/macros/s/AKfycbz7s127_pgdRaPkVS8n8BMwWHMEHYvj6qNXh3Cf9K3dL5jgiuyWa3trYOkc3nL_gx-w/exec?type=syureneko", true);
+	req.open("get", "https://script.google.com/macros/s/AKfycbyb_DTouvJUwprOABBc6E9SJFzQOo9xdUZ_pFn-bj9b5M7MfzxcZfTB-scFPZx_-2wW/exec?type=syureneko", true);
 	req.send();
 	req.onreadystatechange = function () {
 		// サーバーからのレスポンスが完了し、かつ、通信が正常に終了した場合
